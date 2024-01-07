@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(74, 149, 219);
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.nav .nav-link.active {
+    color: rgb(74, 149, 219);
+    background-color: #ffeae6;
+}
+
+.text-colored1 {
+    color: rgb(219, 115, 74);
+}
+
+.text-colored2,
+#acomodacoes .nav-link:hover {
+    color: rgb(74, 149, 219);
+}
+
+#sobre-o-resort,
+#lazer-e-gastronomia {
+    background-color: rgb(253, 229, 217);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgb(74, 149, 219);
+    color: white;
+}
+
+@media (max-width: 766px) {
+    .nav {
+        margin-top: 8px;
+    }
+}
